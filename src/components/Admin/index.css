@@ -1,0 +1,38 @@
+.home-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    background-image: url('../../images/fondo-g.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .home-container-trans {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: initial;
+    background-image: url('../../images/fondo2-g.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-y: scroll;
+  }
+
+.home-header h2 {
+    color: #919191;
+    height: 80px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

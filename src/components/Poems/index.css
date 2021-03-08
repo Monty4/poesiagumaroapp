@@ -1,0 +1,57 @@
+.undred {
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+
+li {
+	list-style: none;
+}
+
+.item-center {
+  width: 350px;
+	list-style: none;
+	text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  height: 40px;
+  align-items: center;
+	justify-content: start;
+  padding: 0 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+
+  .item-center:hover {
+    color: black;
+  }
+
+  .item-left {
+    cursor: pointer;
+    color: rgb(39, 39, 211);
+    font-style: italic;
+  }
+
+  .list {
+    cursor: pointer;
+  }
+
+  .description {
+    border: 1px solid #087AA0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 0.5em;
+    margin: 2em 2em 20em 2em;
+    font-size: 0.8rem;
+}
+
+  .swal2-textarea {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    padding: 2em;
+}
+
+h3 {
+  text-align: center;
+}

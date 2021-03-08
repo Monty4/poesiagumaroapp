@@ -1,0 +1,84 @@
+.row-header {
+    height: 50px;
+    background-color: #064673;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.left-icon {
+    display: flex;
+    align-items: center
+}
+
+.center-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #064673;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.right-icon {
+    display: flex;
+    align-items: center
+}
+
+.img-left {
+    margin-left: 2px
+}
+
+.img-right {
+    margin-left: 2px
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url('../../images/panorama.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 56px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.bg-light {
+    background-color: #064673 !important;
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar-light .navbar-brand {
+    color: white
+}
+
+/* .navbar-light .navbar-toggler-icon {
+    background-image: url('../../images/icons/header-menu.png')
+} */
+
+.navbar-toggler-icon {
+    background-size: unset
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white
+}
+
+.left-menu {
+    width: 30%;
+    display: flex;
+    align-items: center
+}
+
+.right-menu {
+    padding: 0
+}
+
+a.nav-link {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
